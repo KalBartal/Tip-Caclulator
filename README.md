@@ -2,18 +2,28 @@
 
 This is my coding challenge submission for day #2 of the 100 Days of Code: The Complete Python Pro Bootcamp, instructor-led training.
 
-This simple application takes 3 inputs; bill amount, desired tip amount in percentage and how many people are there to split the bill between.
+This is a Python program to calculate how much each person should pay when splitting a bill with tip included.
 
-On recieving these 3 inputs, the application divides the bill by the number of people and tells the user how much each person should pay. 
+## Requirements
+
+- Python 3 or higher
+
+## Installation
+
+No installation is necessary to run this program.
 
 ## Usage
 
+Clone or download this repository. Run the `main.py` file in your Python terminal. 
+
+## Example
+
 ```
+$ python main.py
 Welcome to the tip calculator!
-
-What was the total bill?
-How much tip would you like to give? 10, 12, or 15(%)?
-How many people to split the bill?
-
-Each person should pay: ${amount}.
+What was the total bill? $150.00
+How much tip would you like to give? 10, 12, or 15? 12
+How many people to split the bill? 5
+Each person should pay: $33.6
 ```
+
